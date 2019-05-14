@@ -50,6 +50,9 @@ const antonietta={
   "name": "Antonietta",
   "email": "adaine5@samsung.com",
   "gender": "F",
+  multiplyNums: function(num1,num2){
+    return num1+num2;
+  }
 }
 // ==== Challenge 2: Reading Object Data ==== 
 // Once your objects are created, log out the following requests from HR into the console:
@@ -67,17 +70,10 @@ console.log(antonietta.gender);
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
 
-// function speak(name){
-//   return "Hello, my name is " + name;
-// }
-// console.log(speak(kennan));
-// const speak = function(name){
-//   return "Hello, my name is " + name;
-// }
 console.log(kennan.speak());
 
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
-//console.log(antonietta.multiplyNums(3,4));
+console.log(antonietta.multiplyNums(3,4));
 
 // === Great work! === Head over to the the arrays.js file or take a look at the stretch challenge
 
