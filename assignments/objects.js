@@ -29,8 +29,8 @@ const kennan={
   "name": "Kennan",
   "email": "kdiben1@tinypic.com",
   "gender": "M",
-  speak: function(name){
-    return "Hello, my name is " + this.name;
+  speak: function(){
+    return  `Hello, my name is ${this.name}`;
   },
 }
 const kevin={
